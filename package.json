@@ -1,0 +1,27 @@
+{
+  "name": "@upbond/identities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ayanworks/polygon-did-registrar": "^0.0.11",
+    "@ayanworks/polygon-did-resolver": "^0.0.10",
+    "base64url": "^3.0.1",
+    "did-jwt-vc": "^3.1.0",
+    "did-resolver": "^4.0.1",
+    "ethers": "^5.7.2",
+    "ethr-did": "^2.3.6",
+    "ethr-did-resolver": "^8.0.0",
+    "moment": "^2.29.4",
+    "verite": "^0.0.4",
+    "web3": "^1.8.0"
+  }
+}
